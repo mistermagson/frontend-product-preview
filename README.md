@@ -64,4 +64,4 @@ __typography.scss_
 ## Author
 
 - Website - [Mister Magson](https://mistermagson.com.br)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@mistermagson](https://www.frontendmentor.io/profile/mistermagson)

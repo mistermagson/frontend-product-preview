@@ -2,6 +2,51 @@
 @import "colors";
 @import "media";
 
+body{
+  background-color: $secondary;
+  font-family: $montserrat;
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card{
+
+  width: 600px;
+  height: 450px;
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .content{
+    margin: 31.5px;
+  }
+
+}
+
+.img-desktop{
+  width: 100%;
+}
+
 p{
   size: 14px;
+  color: $secondary;
+}
+
+.category{
+
+}
+
+.footer{
+  flex-shrink: 0;
+
+  .attribution {
+    font-size: 11px; text-align: center;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
 }

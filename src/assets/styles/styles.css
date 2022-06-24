@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+body {
+  background-color: hsl(30deg, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  height: 450px;
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card .content {
+  margin: 31.5px;
+}
+
+.img-desktop {
+  width: 100%;
+}
+
+p {
+  size: 14px;
+  color: hsl(30deg, 38%, 92%);
+}
+
+.footer {
+  flex-shrink: 0;
+}
+.footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.footer .attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css.map */
