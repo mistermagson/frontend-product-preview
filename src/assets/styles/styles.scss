@@ -13,22 +13,68 @@ body{
   justify-content: center;
 }
 .card{
-
   width: 600px;
   height: 450px;
-  background-color: aquamarine;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-radius: 15px;
+
+  .cover{
+    .img-desktop{
+      width: 100%;
+    }
+  }
 
   .content{
-    margin: 31.5px;
+    margin: 32px;
+
+    .category{
+      height: 15px;
+      letter-spacing: 0.3em;
+      font-size: 12px ;
+    }
+    h1{
+      font-family: $fraunces;
+      font-weight: 700;
+      font-size: 32px;
+
+    }
+    p{
+      font-family: $montserrat;
+      font-weight: 500;
+      color: $neutral02;
+      font-size: 14px;
+      line-height: 23px;
+    }
+    .prices{
+      display: flex;
+      align-items: center;
+
+      .price-offer{
+        color: $primary;
+        font-family: $fraunces;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+      }
+      .price-full{
+        font-family: $montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 23px;
+        text-decoration-line: line-through;
+        margin-left: 24px;
+
+      }
+    }
+
   }
 
 }
 
-.img-desktop{
-  width: 100%;
-}
+
 
 p{
   size: 14px;

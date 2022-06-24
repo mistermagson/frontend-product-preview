@@ -14,16 +14,53 @@ body {
 .card {
   width: 600px;
   height: 450px;
-  background-color: aquamarine;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-radius: 15px;
+}
+.card .cover .img-desktop {
+  width: 100%;
 }
 .card .content {
-  margin: 31.5px;
+  margin: 32px;
 }
-
-.img-desktop {
-  width: 100%;
+.card .content .category {
+  height: 15px;
+  letter-spacing: 0.3em;
+  font-size: 12px;
+}
+.card .content h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+.card .content p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228deg, 12%, 48%);
+  font-size: 14px;
+  line-height: 23px;
+}
+.card .content .prices {
+  display: flex;
+  align-items: center;
+}
+.card .content .prices .price-offer {
+  color: hsl(158deg, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+.card .content .prices .price-full {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  margin-left: 24px;
 }
 
 p {
