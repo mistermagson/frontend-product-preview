@@ -12,6 +12,7 @@ body {
 }
 
 .card {
+  margin-top: 175px;
   width: 600px;
   height: 450px;
   background-color: white;
@@ -21,6 +22,8 @@ body {
 }
 .card .cover .img-desktop {
   width: 100%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .card .content {
   margin: 32px;
