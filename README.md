@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 TODO
 
 ### Links
 
-- Solution URL: [Solutio on Github](https://github.com/mistermagson/frontend-product-preview.git)
+- Solution URL: [Solution on Github](https://github.com/mistermagson/frontend-product-preview.git)
 - Live Site URL: [See Live Here](https://portfolio.mistermagson.com.br)
 
 ## My process
@@ -39,7 +39,6 @@ TODO
 
 - HTML & CSS-only
 - SCSS/SASS
-- Flexbox
 
 ### What I learned
 
@@ -58,7 +57,7 @@ __typography.scss_
 ### Useful resources
 
 - [Google Fonts](https://fonts.google.com/) - Download only what matters for your project.
-- [Sass](https://sass-lang.com/guide) - I beliave SASS really gives superpowers to CSS. 
+- [Sass](https://sass-lang.com/guide) - I believe SASS really gives superpowers to CSS. 
 
 
 ## Author
